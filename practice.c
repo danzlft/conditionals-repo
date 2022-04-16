@@ -52,11 +52,12 @@ int main()
     printf("\nInput a value: ");
     scanf("%d", &n);
 
-    IF n is >= 0, print value as a positive num if (n >= 0)
+    // IF n is >= 0, print value as a positive num 
+    if (n >= 0)
     {
         printf("%d is a positive number", n);
     }
-    ELSE print it as negative else
+    // ELSE print it as negative else
     {
         printf("%d is a negative number.", n);
     }
